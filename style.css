@@ -1,0 +1,57 @@
+html {
+  background: darkblue;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+  padding: 40px;
+  color: chocolate;
+  border-top: 10px solid brown;
+  border-bottom: 10px solid brown;
+  background-color: aqua;
+}
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+p {
+  line-height: 1.5em;
+  width: 800px;
+}
+
+#blog {
+  border-top: 1px dotted darkblue;
+}
+
+.blog-post {
+  border-bottom: 1px dotted darkblue;
+}
+
+.table {
+  color: black;
+}
+
+.header {
+  color: brown;
+}
+
+.sub {
+  background-color: brown;
+  color: white;
+}
+
+a[href="./about.html"] {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blueviolet;
+}
+
+a[href="./index.html"] {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blueviolet;
+}
+
+a[href="./contact.html"] {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: blueviolet;
+}
