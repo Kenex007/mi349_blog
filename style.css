@@ -16,6 +16,7 @@ h1 {
 }
 
 p {
+  color: black;
   line-height: 1.5em;
   width: 800px;
 }
@@ -33,7 +34,7 @@ p {
 }
 
 .header {
-  color: brown;
+  color: black;
 }
 
 .sub {
@@ -43,15 +44,51 @@ p {
 
 a[href="./about.html"] {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: blueviolet;
+  color: white;
 }
 
 a[href="./index.html"] {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: blueviolet;
+  color: white;
 }
 
 a[href="./contact.html"] {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: blueviolet;
+  color: white;
+}
+
+.image-box {
+  background: green;
+  width: 300px;
+  height: 200px;
+  border: black 6px solid;
+  float: left;
+  margin-right: 10px;
+}
+
+.image-box2 {
+  background: green;
+  width: 300px;
+  height: 300px;
+  border: black 6px solid;
+  float: left;
+  margin-right: 10px;
+}
+
+.top-bar {
+  background: brown;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+form {
+  display: flex;
+}
+
+label {
+  background: brown;
+  color: white;
+  padding: 10px;
+  margin: 5px;
 }
